@@ -176,9 +176,7 @@ cmd /C '"C:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\Buil
 
 Then in the same terminal:
 
-```cl /std:c++17 /EHsc /DNOMINMAX demo_main.cpp can_bus.cpp -I. -I"C:\Program Files (x86)\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include" /link /LIBPATH:"C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\lib64\msvc" PCANBasic.lib NIDAQmx.lib /OUT:demo_main.exe
-
-```
+```cl /std:c++17 /EHsc /DNOMINMAX demo_main.cpp can_bus.cpp -I. -I"C:\Program Files (x86)\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include" /link /LIBPATH:"C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\lib64\msvc" PCANBasic.lib NIDAQmx.lib /OUT:demo_main.exe```
 
 That produces:
 demo_main.exe
